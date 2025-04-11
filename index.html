@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Blaze AI - Code Generator</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="container">
+    <h1 class="logo">Blaze AI</h1>
+    <p class="subtitle">Describe what you want. Choose your language. Blaze will code it.</p>
+
+    <textarea id="codePrompt" placeholder="e.g. Build a to-do list app" rows="6"></textarea>
+
+    <label for="languageSelect">Language:</label>
+    <select id="languageSelect">
+      <option value="Python">Python</option>
+      <option value="JavaScript">JavaScript</option>
+      <option value="BDFD">BDFD (Bot Designer for Discord)</option>
+    </select>
+
+    <button id="generateCodeBtn">Generate Code</button>
+
+    <pre id="codeOutput" class="output-block"></pre>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
